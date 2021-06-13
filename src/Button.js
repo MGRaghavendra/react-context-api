@@ -6,7 +6,6 @@ export class Button extends Component {
     return (
       <MyContext.Consumer>
         {(context) => {
-          console.log(context.state);
           return (
             <button onClick={context.Changetheme}>
               <h2>Click Me!</h2>
