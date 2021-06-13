@@ -23,7 +23,7 @@ class App extends React.Component {
                     context.state.theme === "light" ? this.dark : this.white,
                 }}
               >
-                Guru
+                React-Context-api
               </h1>
               <Themedbutton />
             </div>
